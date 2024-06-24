@@ -12,7 +12,7 @@ def divide(numberOne, numberTwo):
         raise ValueError("Impossible to divide by 0")
     return numberOne / numberTwo
 
-def modulo(numberOne, numberTwo):
+def modulus(numberOne, numberTwo):
     if(numberTwo == 0):
         raise ValueError("Impossible to modulo by 0")
     return numberOne % numberTwo
